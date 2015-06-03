@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D82ACAD-407F-4CD2-BA83-E44F1550E24E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA29F9AD-DAD3-4436-9BE9-71DA118C92A4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LibFree.AspNet.Mvc.Prefetch.Core", "src\LibFree.AspNet.Mvc.Prefetch.Core\LibFree.AspNet.Mvc.Prefetch.Core.xproj", "{98F0E38D-FE98-457E-86D9-B79CDA07C83F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F0E38D-FE98-457E-86D9-B79CDA07C83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F0E38D-FE98-457E-86D9-B79CDA07C83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F0E38D-FE98-457E-86D9-B79CDA07C83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F0E38D-FE98-457E-86D9-B79CDA07C83F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98F0E38D-FE98-457E-86D9-B79CDA07C83F} = {2D82ACAD-407F-4CD2-BA83-E44F1550E24E}
+	EndGlobalSection
+EndGlobal
