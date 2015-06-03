@@ -1,5 +1,5 @@
 # LibFree.AspNet.Mvc.Prefetch
-A prefetch tag helper to allow to render a list of links rel="prefetch" based on the provided directory path.
+A prefetch tag helper that allows to render a list of links rel="prefetch" based on the provided directory path.
 
 ### Usage
 
