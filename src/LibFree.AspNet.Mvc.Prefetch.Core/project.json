@@ -8,9 +8,9 @@
 
 	"dependencies":
 	{
-		"Microsoft.AspNet.Razor.Runtime": "4.0.0-*",
-		"Microsoft.Framework.Logging.Abstractions": "1.0.0-*",
-		"Microsoft.AspNet.Hosting.Abstractions": "1.0.0-*"
+		"Microsoft.AspNet.Razor.Runtime": "4.0.0-beta6-*",
+		"Microsoft.Framework.Logging.Abstractions": "1.0.0-beta6-*",
+		"Microsoft.AspNet.Hosting.Abstractions": "1.0.0-beta6-*"
 	},
 
 	"frameworks":
