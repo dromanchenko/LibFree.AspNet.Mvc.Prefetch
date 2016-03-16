@@ -1,20 +1,20 @@
 ﻿using Microsoft.AspNet.Hosting;
-using Microsoft.AspNet.Razor.Runtime.TagHelpers;
-using Microsoft.Framework.Logging;
+using Microsoft.AspNet.Razor.TagHelpers;
+using Microsoft.Extensions.Logging;
 using System.IO;
 using System.Text;
+using Microsoft.AspNet.Mvc.Rendering;
 
 namespace LibFree.AspNet.Mvc.Prefetch.Core
 {
-	[TargetElement("prefetch")]
+	[HtmlTargetElement("prefetch")]
 	public sealed class PrefetchTagHelper : TagHelper
 	{
 		[HtmlAttributeName("directory")]
 		public string Directory { get; set; }
 
-		private ILogger _logger;
-		private IHostingEnvironment _hostingEnvironment;
-
+		private readonly ILogger _logger;
+		private readonly IHostingEnvironment _hostingEnvironment;
 		private static string _linksCache;
 		private static readonly object _linkCacheLockObject = new object();
 
@@ -51,7 +51,7 @@ namespace LibFree.AspNet.Mvc.Prefetch.Core
 				}
 			}
 
-			output.Content.SetContent(links);
+			output.Content.SetHtmlContent(links);
 		}
 
 		private string BuildLinks()
